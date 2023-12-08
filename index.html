@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--divinectorweb.com-->
+<head>
+    <meta charset="UTF-8">
+    <title>Circular Progress Bar Using HTML CSS JavaScript</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="progresscircle.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="section-heading text-center">
+                        <h2>Our Skills</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="circlechart" data-percentage="-49">html</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="circlechart" data-percentage="89">css</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="circlechart" data-percentage="29">java</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="circlechart" data-percentage="75">seo</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="circlechart" data-percentage="25">marketing</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="circlechart" data-percentage="85">Graphics</div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="progresscircle.js"></script>
+    <script>
+        $('.circlechart').circlechart();
+    </script>
+</body>
+</html>
